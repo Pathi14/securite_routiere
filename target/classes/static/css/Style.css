@@ -1,0 +1,26 @@
+body{
+    font-family: lucida sans-serif;
+}
+
+header{
+    height: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid #e41414;
+}
+
+header .logo h2{
+    font-size: 35px;
+}
+
+header nav .nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav .nav-list .list a{
+    display: block;
+    padding: 15px;
+    margin: 9px 0;
+    text-decoration: none;
+}

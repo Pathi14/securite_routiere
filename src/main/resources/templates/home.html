@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html lang="en" xmls:th="http://www.thymeleaft.org">
+    <head>
+        <meta charset=""/>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
+        <title>
+            Demo rapide
+        </title>
+    </head>
+    <body>
+        <h1 th:text="${#lists.size(friends)} + ' Friends'">Friends</h1>
+
+        <ul>
+            <li th:each="friend : ${friends}" th:text="${friend}"></li>
+        </ul>
+    </body>
+</html>
