@@ -10,6 +10,6 @@ public class HomeController {
     public String index(ModelMap modelMap) {
         String Friends[] = {"Alice", "Bob", "John"};
         modelMap.addAttribute("friends", Friends);
-        return "home";
+        return "accueil";
     }
 }
